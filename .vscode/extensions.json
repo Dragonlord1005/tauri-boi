@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "lanza.lldb-vscode"
+        "lanza.lldb-vscode",
+        "svelte.svelte-vscode"
     ]
 }
