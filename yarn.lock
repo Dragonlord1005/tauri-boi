@@ -93,7 +93,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/vite-plugin-svelte@npm:^1.0.0-next.30":
+"@sveltejs/vite-plugin-svelte@npm:1.0.0-next.49":
   version: 1.0.0-next.49
   resolution: "@sveltejs/vite-plugin-svelte@npm:1.0.0-next.49"
   dependencies:
@@ -114,7 +114,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tauri-apps/api@npm:^1.0.0-rc.7":
+"@tauri-apps/api@npm:1.0.0-rc.7":
   version: 1.0.0-rc.7
   resolution: "@tauri-apps/api@npm:1.0.0-rc.7"
   dependencies:
@@ -186,7 +186,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tauri-apps/cli@npm:^1.0.0-rc.14":
+"@tauri-apps/cli@npm:1.0.0-rc.14":
   version: 1.0.0-rc.14
   resolution: "@tauri-apps/cli@npm:1.0.0-rc.14"
   dependencies:
@@ -1739,7 +1739,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-check@npm:^2.2.7":
+"svelte-check@npm:2.7.2":
   version: 2.7.2
   resolution: "svelte-check@npm:2.7.2"
   dependencies:
@@ -1768,7 +1768,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-preprocess@npm:^4.0.0, svelte-preprocess@npm:^4.9.8":
+"svelte-preprocess@npm:4.10.7, svelte-preprocess@npm:^4.0.0":
   version: 4.10.7
   resolution: "svelte-preprocess@npm:4.10.7"
   dependencies:
@@ -1817,7 +1817,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^3.44.0":
+"svelte@npm:3.48.0":
   version: 3.48.0
   resolution: "svelte@npm:3.48.0"
   checksum: d72587582b6967bf083ff7dc254f8067c22b57d4678182b48ca51010e0f3a1d98a33a00365046aee0c70ed3ffc716b73141207ec5ac6c44f1f5e34c5477e61ea
@@ -1842,16 +1842,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tauri-boi@workspace:."
   dependencies:
-    "@sveltejs/vite-plugin-svelte": ^1.0.0-next.30
-    "@tauri-apps/api": ^1.0.0-rc.7
-    "@tauri-apps/cli": ^1.0.0-rc.14
+    "@sveltejs/vite-plugin-svelte": 1.0.0-next.49
+    "@tauri-apps/api": 1.0.0-rc.7
+    "@tauri-apps/cli": 1.0.0-rc.14
     "@tsconfig/svelte": 3.0.0
-    svelte: ^3.44.0
-    svelte-check: ^2.2.7
-    svelte-preprocess: ^4.9.8
-    tslib: ^2.3.1
-    typescript: ^4.5.4
-    vite: ^2.9.9
+    svelte: 3.48.0
+    svelte-check: 2.7.2
+    svelte-preprocess: 4.10.7
+    tslib: 2.4.0
+    typescript: 4.7.3
+    vite: 2.9.12
   languageName: unknown
   linkType: soft
 
@@ -1864,7 +1864,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.3.1":
+"tslib@npm:2.4.0":
   version: 2.4.0
   resolution: "tslib@npm:2.4.0"
   checksum: 8c4aa6a3c5a754bf76aefc38026134180c053b7bd2f81338cb5e5ebf96fefa0f417bff221592bf801077f5bf990562f6264fecbc42cd3309b33872cb6fc3b113
@@ -1878,7 +1878,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:*, typescript@npm:^4.5.4":
+"typescript@npm:*, typescript@npm:4.7.3":
   version: 4.7.3
   resolution: "typescript@npm:4.7.3"
   bin:
@@ -1888,7 +1888,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@4.7.3#~builtin<compat/typescript>":
   version: 4.7.3
   resolution: "typescript@patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=7ad353"
   bin:
@@ -1923,7 +1923,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.9.9":
+"vite@npm:2.9.12":
   version: 2.9.12
   resolution: "vite@npm:2.9.12"
   dependencies:
