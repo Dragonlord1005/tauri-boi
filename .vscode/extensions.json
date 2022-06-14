@@ -1,6 +1,7 @@
 {
-    "recommendations": [
-        "lanza.lldb-vscode",
-        "svelte.svelte-vscode"
-    ]
+  "recommendations": [
+    "lanza.lldb-vscode",
+    "svelte.svelte-vscode",
+    "arcanis.vscode-zipfs"
+  ]
 }
