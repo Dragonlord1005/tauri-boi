@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sveltejs/vite-plugin-svelte", "virtual:896a5d4467819b9bd0814761e39fd7513288f1d985bd3dc34aa277eb8e164af4ab1ae46ab00bbb12dd4eb7adfdf84df67e695a1a957463e1dbee631479efb4f3#npm:1.0.0-next.49"],\
             ["@tauri-apps/api", "npm:1.0.0-rc.7"],\
             ["@tauri-apps/cli", "npm:1.0.0-rc.14"],\
-            ["@tsconfig/svelte", "npm:2.0.1"],\
+            ["@tsconfig/svelte", "npm:3.0.0"],\
             ["svelte", "npm:3.48.0"],\
             ["svelte-check", "virtual:896a5d4467819b9bd0814761e39fd7513288f1d985bd3dc34aa277eb8e164af4ab1ae46ab00bbb12dd4eb7adfdf84df67e695a1a957463e1dbee631479efb4f3#npm:2.7.2"],\
             ["svelte-preprocess", "virtual:896a5d4467819b9bd0814761e39fd7513288f1d985bd3dc34aa277eb8e164af4ab1ae46ab00bbb12dd4eb7adfdf84df67e695a1a957463e1dbee631479efb4f3#npm:4.10.7"],\
@@ -304,10 +304,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@tsconfig/svelte", [\
-        ["npm:2.0.1", {\
-          "packageLocation": "./.yarn/cache/@tsconfig-svelte-npm-2.0.1-4cbd65d62f-b866a3e2a4.zip/node_modules/@tsconfig/svelte/",\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/@tsconfig-svelte-npm-3.0.0-afbf48deaf-92986428a6.zip/node_modules/@tsconfig/svelte/",\
           "packageDependencies": [\
-            ["@tsconfig/svelte", "npm:2.0.1"]\
+            ["@tsconfig/svelte", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2121,7 +2121,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sveltejs/vite-plugin-svelte", "virtual:896a5d4467819b9bd0814761e39fd7513288f1d985bd3dc34aa277eb8e164af4ab1ae46ab00bbb12dd4eb7adfdf84df67e695a1a957463e1dbee631479efb4f3#npm:1.0.0-next.49"],\
             ["@tauri-apps/api", "npm:1.0.0-rc.7"],\
             ["@tauri-apps/cli", "npm:1.0.0-rc.14"],\
-            ["@tsconfig/svelte", "npm:2.0.1"],\
+            ["@tsconfig/svelte", "npm:3.0.0"],\
             ["svelte", "npm:3.48.0"],\
             ["svelte-check", "virtual:896a5d4467819b9bd0814761e39fd7513288f1d985bd3dc34aa277eb8e164af4ab1ae46ab00bbb12dd4eb7adfdf84df67e695a1a957463e1dbee631479efb4f3#npm:2.7.2"],\
             ["svelte-preprocess", "virtual:896a5d4467819b9bd0814761e39fd7513288f1d985bd3dc34aa277eb8e164af4ab1ae46ab00bbb12dd4eb7adfdf84df67e695a1a957463e1dbee631479efb4f3#npm:4.10.7"],\
