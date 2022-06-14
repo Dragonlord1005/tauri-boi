@@ -10,14 +10,10 @@
   <Counter />
 
   <p>
-    Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
-    apps.
+    Dude, GitHub Copilot works so well. I'm so glad I'm a part of it. Svelte is working great and I've never used it before.
+    Tauri is fucking awesome too.
   </p>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for
-    the officially supported framework, also powered by Vite!
-  </p>
+  
 </main>
 
 <style>
