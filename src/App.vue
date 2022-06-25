@@ -1,12 +1,26 @@
-<script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts">
+import { createDir, BaseDirectory } from '@tauri-apps/api/fs';
+await createDir('users', { dir: BaseDirectory.App, recursive: true });
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <!-- <br /> -->
+
+  <!-- Sidebar it will have three different items. 1. Game. 2. Inventory. 3. Settings. -->
+  <div class="sidebar" className="fixed top-0 left-0 h-screen w-20 m-0 flex flex-col bg-gray-900 text-white shadow-lg">
+    <nav>
+      <ul>
+        <li>
+          <router-link to="/">Game</router-link>
+        </li>
+        <li>
+          <router-link to="/inventory">Inventory</router-link>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <router-view></router-view>
 </template>
 
 <style>
