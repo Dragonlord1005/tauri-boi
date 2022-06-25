@@ -13,7 +13,9 @@
     "allowlist": {
       "all": false,
       "fs": {
-        "createDir": true
+        "scope": ["$APP/*"],
+        "createDir": true,
+        "readDir": true
       }
     },
     "bundle": {
