@@ -1,4 +1,21 @@
 {
     "extends": ["config:base"],
-    "semanticCommits": "enabled"
+    "semanticCommits": "enabled",
+    "packageRules": [
+        {
+            "matchPackagePatterns": [
+                "*"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "groupName": "all non-major dependencies",
+            "groupSlug": "all-minor-patch"
+        },
+        {
+            "groupName": "definitelyTyped",
+            "matchPackagePrefixes": ["@types/"]
+        }
+    ]
 }
