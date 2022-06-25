@@ -28,7 +28,7 @@ export default {
             </ul>
         </nav>
     </div>
-    <router-view></router-view>
+    <router-view />
 </template>
 
 <style>
