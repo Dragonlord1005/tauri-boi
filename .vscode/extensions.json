@@ -1,3 +1,17 @@
 {
-  "recommendations": ["Vue.volar"]
+  "recommendations": [
+    "vue.volar",
+    "firefox-devtools.vscode-firefox-debug",
+    "devcamp.devcampvsc",
+    "icrawl.discord-vscode",
+    "dracula-theme.theme-dracula",
+    "miguelsolorio.fluent-icons",
+    "github.copilot",
+    "eamodio.gitlens",
+    "lanza.lldb-vscode",
+    "bradlc.vscode-tailwindcss",
+    "wakatime.vscode-wakatime",
+    "vscode-icons-team.vscode-icons",
+    "formulahendry.auto-rename-tag"
+  ]
 }

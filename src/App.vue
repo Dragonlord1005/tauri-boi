@@ -1,6 +1,11 @@
 <script lang="ts">
 import { createDir, BaseDirectory } from '@tauri-apps/api/fs';
-await createDir('users', { dir: BaseDirectory.App, recursive: true });
+// We need to create a default export for App which runs   await createDir('users', { dir: BaseDirectory.App, recursive: true });
+export default {
+  async mounted() {
+    await createDir('users', { dir: BaseDirectory.App, recursive: true });
+  }
+}
 </script>
 
 <template>
