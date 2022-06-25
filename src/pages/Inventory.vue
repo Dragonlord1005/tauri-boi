@@ -1,5 +1,3 @@
-
-
 <template>
     <div class="inventory">
         <h1>Inventory</h1>

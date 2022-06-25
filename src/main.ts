@@ -3,8 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 import Game from './pages/Game.vue'
 import Inventory from './pages/Inventory.vue'
-import "./index.css";
-
+import './index.css'
 
 const routes = [
     { path: '/', name: 'Game', component: Game },
@@ -13,14 +12,10 @@ const routes = [
 
 const router = createRouter({
     history: createWebHistory(),
-    routes: routes
+    routes: routes,
 })
 
-
-
 createApp(App)
+    .use(router)
 
-.use(router)
-    
-    
-.mount('#app')
+    .mount('#app')
